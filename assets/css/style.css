@@ -1,1 +1,17 @@
-/* hello world */
+
+h2 {
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+ color: red;
+ font-size: 45px;
+
+}
+
+
+@media only screen and (max-width: 750px) {
+    p {
+        padding-top: 25px;
+     }
+}
+  
+

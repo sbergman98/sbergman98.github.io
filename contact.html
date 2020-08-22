@@ -5,20 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Bermgan - Contacts</title>
-</head>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--CSS Sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+ </head>
 
 <body>
-    <nav>
-        <ul>
-            <a href="/index.html">Home</a>
-            <a href="/contact.html">Contact</a>
-            <a href="/portfolio.html">Portfolio</a>
-        </ul>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand">Scott A. Bergman</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+
+            </ul>
+
+        </div>
+
     </nav>
-    <section>
-        <h1>Email me</h1>
-        <h2>Call me</h2>
-    </section>
+
+    <!-- Main Body goes in Container -->
+    <div class="container">
+        <!--Row 1-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card bg-light mb-3" style="max-width: 85rem;">
+
+                    <div class="card-header">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="card-body">
+
+
+                        <form>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="exampleInputName">Name</label>
+                                    <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleMessage">Message</label>
+                                    <input type="message" class="form-control" id="exampleInputMessage"
+                                        aria-describedby="exampleInputMessage" placeholder="Message">
+                                </div>
+                            </div>
+
+
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
