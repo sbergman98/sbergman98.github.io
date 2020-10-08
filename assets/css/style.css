@@ -7,6 +7,14 @@ h2 {
 
 }
 
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+    font-size: 35px;
+   
+   }
+
 
 @media only screen and (max-width: 750px) {
     p {
