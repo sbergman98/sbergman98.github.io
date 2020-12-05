@@ -2,7 +2,7 @@
 h2 {
  font-family: 'Times New Roman', Times, serif;
  font-weight: bold;
- color: red;
+ color: #F2635D;
  font-size: 45px;
 
 }
@@ -10,10 +10,38 @@ h2 {
 h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: red;
+    color: #F2635D;
     font-size: 35px;
    
    }
+
+
+.card {
+
+    border: none;
+
+
+}
+
+.card-header {
+    border: none;
+}
+
+
+.img {
+    border: none;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    border-color: white;
+  } 
+
+a.ex1:hover, a.ex1:active {color:#F9AC84;}
 
 
 @media only screen and (max-width: 750px) {

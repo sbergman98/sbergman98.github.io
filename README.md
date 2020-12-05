@@ -42,3 +42,15 @@ Added Rows with content to portfolio
 
 
 Added style code  for P and H2 in css file
+
+
+12/4 Updated Resume
+
+Updated color scheme of NavBar. Added hoover color for links
+
+Final link:
+https://sbergman98.github.io/index.html
+
+
+
+Final Resume
